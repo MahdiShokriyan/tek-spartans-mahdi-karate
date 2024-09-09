@@ -14,12 +14,14 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 <dependencies>
-    <dependency>
-        <groupId>io.karatelabs</groupId>
-        <artifactId>karate-junit5</artifactId>
-        <version>1.5.0</version>
-        <scope>test</scope>
-    </dependency>
+        <!-- https://mvnrepository.com/artifact/com.intuit.karate/karate-junit5 -->
+        <dependency>
+            <groupId>com.intuit.karate</groupId>
+            <artifactId>karate-junit5</artifactId>
+            <version>1.4.1</version>
+            <scope>test</scope>
+        </dependency>
+
 
 </dependencies>
     <build>
