@@ -7,7 +7,8 @@ public class TestRunner {
 
     @Karate.Test
     Karate runTest(){
-        return Karate.run("classpath:features/SecurityTest.feature")
-                .tags("@US_2");
+        return Karate.run("classpath:features")
+                .karateEnv("dev")
+                .tags("@deleteAccount_1");
     }
 }
