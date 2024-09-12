@@ -1,5 +1,5 @@
 @Regression
-Feature: create Account feature with random generated email
+Feature: delete account after opening with diferenet user
 
   @deleteAccount_1
   Scenario Outline: create Account with /add-primary-account/
