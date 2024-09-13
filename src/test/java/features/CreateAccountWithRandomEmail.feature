@@ -18,7 +18,7 @@ Feature: create Account feature with random generated email
         "gender": "Female",
         "maritalStatus": "Single",
         "employmentStatus": "unemployeed",
-        "dateOfBirth": "1990-09-11 "
+        "dateOfBirth": "1990-09-11"
       }
       """
     When method post

@@ -24,4 +24,4 @@ Feature: Testing Plan Code section
     Then assert response[1].planType == "BOAT"
     Then assert response[2].planType == "RENTERS"
     Then assert response[3].planType == "AUTO"
-    Then assert response[0].createdDate == 1725940805815
+

@@ -17,7 +17,7 @@ Feature: get all account
     When method get
     Then print response
     Then status 200
-    * def generateValidToken = callonce read('Generate')
+
 
 
 

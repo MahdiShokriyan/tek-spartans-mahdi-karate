@@ -17,7 +17,7 @@ Feature: create Account feature
         "gender": "Female",
         "maritalStatus": "Single",
         "employmentStatus": "unemployeed",
-        "dateOfBirth": "1990-09-11 "
+        "dateOfBirth": "1990-09-11"
       }
       """
     When method post
