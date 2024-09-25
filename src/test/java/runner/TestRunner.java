@@ -9,6 +9,7 @@ public class TestRunner {
     Karate runTest(){
         return Karate.run("classpath:features")
                 .karateEnv("dev")
-                .tags("Regression");
+                .tags("Regression")
+                .outputCucumberJson(true);
     }
 }
