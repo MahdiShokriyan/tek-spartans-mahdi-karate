@@ -1,3 +1,4 @@
+@Regression
 Feature: Testing adding car and phone to an account
 
 

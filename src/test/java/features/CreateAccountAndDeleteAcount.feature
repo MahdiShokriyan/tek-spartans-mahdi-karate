@@ -1,3 +1,4 @@
+@Regression
 Feature: create and delete account
   @CreateAndDelete_1
   Scenario: Create Account and then Delete it

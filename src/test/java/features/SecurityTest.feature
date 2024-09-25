@@ -1,3 +1,4 @@
+@Regression
 Feature: API testing for Security Functions
 
 
